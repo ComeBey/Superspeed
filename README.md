@@ -9,9 +9,9 @@ Usage:
 
 | No.      | Bash Command                    
 |----------|---------------------------------
-| 1        | wget https://raw.githubusercontent.com/oooldking/script/master/superspeed.sh      
-| 2        | chmod +x superspeed.sh
-| 3        | ./superspeed.sh
+| 1        | wget https://raw.githubusercontent.com/ComeBey/Superspeed/master/superbench.sh      
+| 2        | chmod +x superbench.sh
+| 3        | ./superbench.sh
 ```
 ## Superbench.sh
 - Description: Auto test download & I/O speed & network to China script
@@ -29,4 +29,8 @@ Usage:
  
 ```
 wget -qO- --no-check-certificate https://raw.githubusercontent.com/ComeBey/Superspeed/master/superbench.sh | bash
+```
+or
+```
+wget https://raw.githubusercontent.com/ComeBey/Superspeed/master/superbench.sh && chmod +x superbench.sh && ./superbench.sh
 ```
